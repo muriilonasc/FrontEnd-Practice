@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+body{
+    background:  #fff;
+}
+.header{
+    background: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between; ; /* Isso faz com que os itens dentro da div sejam espaçados uniformemente */
+
+    
+}
+.headerText{
+    color: #fff;
+    font-size:20px;
+    margin: 10px;
+}
+.button-header{
+    display: flex; /* Isso torna os botões flex itens para que possam ser espaçados */
+    gap: 30px; /* Isso adiciona espaço entre os botões */
+}
+.submit{
+    border: 1px solid white;
+    background:  #303035;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;   
+    font-size: 23px;
+}
+.submit:hover{
+    background: #161618;
+    transition: .5s;
+}
+.sign{
+    background: #4C5FD5;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 23px;
+}
+.sign:hover {
+    background: #192486;
+    transition: .5s;
+}
+.search{
+    padding: 90px;
+    background: #dadbf1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size:30px;
+    
+}
+.searchbar{
+    border: 1px solid black;
+    height: 50px;
+    width: 600px;
+    margin: 20px;
+    padding: 5px;
+    font-size:20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0, 0.25);
+}
+.searchbar:hover{
+    background: #F5F5F5;
+}
+.info-box{
+    margin: 100px;
+    display: flex ;
+    justify-content:space-between;
+    padding: 30px;
+}
+.link{
+    color: #4C5FD5;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.link:hover{
+    color: #051BFF;
+}
+.linkconfig{
+    display: inline-flex; 
+    align-items: center;
+    color: #4C5FD5;
+}
+.footer{
+    background: #000;
+    color: #fff;
+    display: flex ;
+    justify-content:space-between;
+}
+.inform{
+    margin: 25px;
+    padding: 30px;
+}
+.lastInf{
+    margin: 100px;
+    padding: 20px;
+}
+.logo{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+}
